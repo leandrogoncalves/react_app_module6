@@ -1,13 +1,7 @@
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f5fcff',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-});
+import styled from 'styled-components/native';
+
+export const Container = styled.View`
+  flex: 1;
+  padding: 30px;
+  background: #eee;
+`;

@@ -49,3 +49,6 @@ yarn add @react-navigation/stack
 ##IOS
 #instalar cocoapods
 cd ios && npx pod-install ios
+
+## Install styled components
+yarn add styled-components
