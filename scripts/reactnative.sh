@@ -52,3 +52,9 @@ cd ios && npx pod-install ios
 
 ## Install styled components
 yarn add styled-components
+
+## Install icons
+yarn add react-native-vector-icons
+
+##install axios http
+yarn add axios

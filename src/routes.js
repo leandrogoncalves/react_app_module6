@@ -24,8 +24,8 @@ export default function Routes() {
           headerTitleAlign: 'center',
         }}
       >
-        <Stack.Screen name="Main" component={Main} />
-        <Stack.Screen name="Usuários" component={User} />
+        <Stack.Screen name="Usuários" component={Main} />
+        <Stack.Screen name="Repositorios" component={User} />
       </Stack.Navigator>
     </NavigationContainer>
   );
