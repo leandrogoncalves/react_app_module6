@@ -61,3 +61,6 @@ yarn add axios
 
 ##install async storage
 yarn add @react-native-community/async-storage
+
+## install prop types
+yarn add prop-types

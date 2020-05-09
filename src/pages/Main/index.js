@@ -21,12 +21,6 @@ import {
 } from './styles';
 
 export default class Main extends Component {
-  static PropTypes = {
-    navigation: PropTypes.shape({
-      navigate: PropTypes.func,
-    }).isRequired,
-  };
-
   constructor(props) {
     super(props);
     this.state = {
@@ -37,7 +31,7 @@ export default class Main extends Component {
   }
 
   async componentDidMount() {
-    console.tron.log(this.props);
+    // console.tron.log(this.props);
     const users = await AsyncStorage.getItem('users');
 
     if (users) {
@@ -129,3 +123,9 @@ export default class Main extends Component {
     );
   }
 }
+
+Main.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func,
+  }).isRequired,
+};
