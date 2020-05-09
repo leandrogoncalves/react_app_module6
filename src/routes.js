@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import 'react-native-gesture-handler';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -24,8 +25,16 @@ export default function Routes() {
           headerTitleAlign: 'center',
         }}
       >
-        <Stack.Screen name="Usuários" component={Main} />
-        <Stack.Screen name="Repositorios" component={User} />
+        <Stack.Screen
+          name="Main"
+          component={Main}
+          options={{ title: 'Usuários' }}
+        />
+        <Stack.Screen
+          name="User"
+          component={User}
+          options={{ title: 'Detalhes' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -58,3 +58,6 @@ yarn add react-native-vector-icons
 
 ##install axios http
 yarn add axios
+
+##install async storage
+yarn add @react-native-community/async-storage
